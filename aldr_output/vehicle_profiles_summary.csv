@@ -1,0 +1,11 @@
+vehicle_profile_id,num_observations,cameras_observed,mean_reid_similarity,overall_review_status,has_violations,detected_modification_count,detected_modification_classes,max_confidence,all_detected_modifications_with_conf
+VEH_PROFILE_001,1,cam_overhead_01,1.0,FLAGGED_FOR_MANUAL_REVIEW,True,2,"wheel, aftermarket_tyre",0.372,wheel (0.37); aftermarket_tyre (0.37)
+VEH_PROFILE_002,1,cam_overhead_01,1.0,CLEAR_LEGAL,False,0,,0.0,
+VEH_PROFILE_003,1,cam_lane_02,1.0,CLEAR_LEGAL,False,0,,0.0,
+VEH_PROFILE_004,1,cam_lane_02,1.0,CLEAR_LEGAL,False,0,,0.0,
+VEH_PROFILE_005,1,cam_lane_02,1.0,FLAGGED_FOR_MANUAL_REVIEW,True,1,wheel,0.429,wheel (0.43)
+VEH_PROFILE_006,1,cam_lane_02,1.0,CLEAR_LEGAL,False,0,,0.0,
+VEH_PROFILE_007,1,cam_lane_02,1.0,CLEAR_LEGAL,False,0,,0.0,
+VEH_PROFILE_008,1,cam_lane_02,1.0,FLAGGED_FOR_MANUAL_REVIEW,True,1,wheel,0.696,wheel (0.70)
+VEH_PROFILE_009,1,cam_overhead_01,1.0,FLAGGED_FOR_MANUAL_REVIEW,True,2,"aftermarket_spoiler, aftermarket_tyre",0.316,aftermarket_spoiler (0.29); aftermarket_tyre (0.32)
+VEH_PROFILE_010,1,cam_overhead_01,1.0,FLAGGED_FOR_MANUAL_REVIEW,True,2,"aftermarket_spoiler, aftermarket_tyre",0.363,aftermarket_spoiler (0.36); aftermarket_tyre (0.31)

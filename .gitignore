@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local cache & temporary runs
+runs/
+.pytest_cache/
+*.log
+*.tmp
+
+# Legacy MathInk files (ignore in ALDR repo)
+backend/
+frontend/
+inference/
+training/
+dataset/
+model/
+MathInk_*
+mathink_*
+push_to_github.bat
+run_app.bat
+untitled5*
+Untitled5*
+
+# Helper generation scripts
+build_*.py
+generate_*.py
+inspect_cells.py
+dump_solution_cells.py
+list_cells_55_end.py
+update_user_colab_notebook.py
+create_notebook.py
+add_graphs_to_notebook.py
+
+# OS generated files
+.DS_Store
+Thumbs.db

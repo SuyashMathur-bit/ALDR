@@ -1,0 +1,2 @@
+vehicle_profile_id,num_observations,cameras_observed,mean_reid_similarity,overall_review_status,has_violations,detected_modification_count,detected_modification_classes,max_confidence,all_detected_modifications_with_conf
+VEH_PROFILE_004,3,"cam_12, cam_01, cam_02",0.6874,FLAGGED_FOR_MANUAL_REVIEW,True,1,aftermarket_tyre,0.855,aftermarket_tyre (0.85)

@@ -1,0 +1,1569 @@
+{
+  "project": "ALDR - AI-Driven Law & Road Monitoring",
+  "system_version": "1.0.0",
+  "timestamp": "2026-10-21T10:03:02",
+  "total_vehicle_profiles": 10,
+  "flagged_profiles_count": 5,
+  "profiles": [
+    {
+      "vehicle_profile_id": "VEH_PROFILE_001",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_overhead_01"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": true,
+      "detected_modification_count": 2,
+      "detected_modifications": [
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.3718,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg_veh_0",
+              "source_file": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1000.0,
+              "confidence": 0.37180137634277344,
+              "crop_bbox": [
+                486,
+                606,
+                659,
+                971
+              ],
+              "image_bbox": [
+                930,
+                1101,
+                1103,
+                1466
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.367,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg_veh_0",
+              "source_file": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1000.0,
+              "confidence": 0.36695054173469543,
+              "crop_bbox": [
+                482,
+                600,
+                671,
+                968
+              ],
+              "image_bbox": [
+                926,
+                1095,
+                1115,
+                1463
+              ]
+            }
+          ]
+        }
+      ],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.3718,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg_veh_0",
+              "source_file": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1000.0,
+              "confidence": 0.37180137634277344,
+              "crop_bbox": [
+                486,
+                606,
+                659,
+                971
+              ],
+              "image_bbox": [
+                930,
+                1101,
+                1103,
+                1466
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.367,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg_veh_0",
+              "source_file": "1124_jpg.rf.7beeb08ffa4437f752fbc4ec2e802246.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1000.0,
+              "confidence": 0.36695054173469543,
+              "crop_bbox": [
+                482,
+                600,
+                671,
+                968
+              ],
+              "image_bbox": [
+                926,
+                1095,
+                1115,
+                1463
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "FLAGGED_FOR_MANUAL_REVIEW"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_002",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_overhead_01"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": false,
+      "detected_modification_count": 0,
+      "detected_modifications": [],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "CLEAR_LEGAL"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_003",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": false,
+      "detected_modification_count": 0,
+      "detected_modifications": [],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "CLEAR_LEGAL"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_004",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": false,
+      "detected_modification_count": 0,
+      "detected_modifications": [],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "CLEAR_LEGAL"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_005",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": true,
+      "detected_modification_count": 1,
+      "detected_modifications": [
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.4288,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_lane_02"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg_veh_2",
+              "source_file": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg",
+              "camera_id": "cam_lane_02",
+              "timestamp": 1020.0,
+              "confidence": 0.4287649691104889,
+              "crop_bbox": [
+                197,
+                126,
+                251,
+                201
+              ],
+              "image_bbox": [
+                1149,
+                739,
+                1203,
+                814
+              ]
+            }
+          ]
+        }
+      ],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.4288,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_lane_02"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg_veh_2",
+              "source_file": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg",
+              "camera_id": "cam_lane_02",
+              "timestamp": 1020.0,
+              "confidence": 0.4287649691104889,
+              "crop_bbox": [
+                197,
+                126,
+                251,
+                201
+              ],
+              "image_bbox": [
+                1149,
+                739,
+                1203,
+                814
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "FLAGGED_FOR_MANUAL_REVIEW"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_006",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": false,
+      "detected_modification_count": 0,
+      "detected_modifications": [],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "CLEAR_LEGAL"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_007",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": false,
+      "detected_modification_count": 0,
+      "detected_modifications": [],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "CLEAR_LEGAL"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_008",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_lane_02"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": true,
+      "detected_modification_count": 1,
+      "detected_modifications": [
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.6959,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_lane_02"
+          ],
+          "review_flag": "SINGLE_VIEW_SUSPECT",
+          "evidence_items": [
+            {
+              "detection_id": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg_veh_5",
+              "source_file": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg",
+              "camera_id": "cam_lane_02",
+              "timestamp": 1020.0,
+              "confidence": 0.6958852410316467,
+              "crop_bbox": [
+                200,
+                123,
+                253,
+                200
+              ],
+              "image_bbox": [
+                1149,
+                738,
+                1202,
+                815
+              ]
+            }
+          ]
+        }
+      ],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "DETECTED",
+          "fused_confidence": 0.6959,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_lane_02"
+          ],
+          "review_flag": "SINGLE_VIEW_SUSPECT",
+          "evidence_items": [
+            {
+              "detection_id": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg_veh_5",
+              "source_file": "24_jpg.rf.fc2edfde54f8bfd0f4c83d675dcbdc12.jpg",
+              "camera_id": "cam_lane_02",
+              "timestamp": 1020.0,
+              "confidence": 0.6958852410316467,
+              "crop_bbox": [
+                200,
+                123,
+                253,
+                200
+              ],
+              "image_bbox": [
+                1149,
+                738,
+                1202,
+                815
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "FLAGGED_FOR_MANUAL_REVIEW"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_009",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_overhead_01"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": true,
+      "detected_modification_count": 2,
+      "detected_modifications": [
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "DETECTED",
+          "fused_confidence": 0.2863,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_0",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.28630709648132324,
+              "crop_bbox": [
+                499,
+                114,
+                574,
+                212
+              ],
+              "image_bbox": [
+                794,
+                628,
+                869,
+                726
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.316,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_0",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.3160015344619751,
+              "crop_bbox": [
+                41,
+                435,
+                109,
+                554
+              ],
+              "image_bbox": [
+                336,
+                949,
+                404,
+                1068
+              ]
+            }
+          ]
+        }
+      ],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "DETECTED",
+          "fused_confidence": 0.2863,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_0",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.28630709648132324,
+              "crop_bbox": [
+                499,
+                114,
+                574,
+                212
+              ],
+              "image_bbox": [
+                794,
+                628,
+                869,
+                726
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.316,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_0",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.3160015344619751,
+              "crop_bbox": [
+                41,
+                435,
+                109,
+                554
+              ],
+              "image_bbox": [
+                336,
+                949,
+                404,
+                1068
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "FLAGGED_FOR_MANUAL_REVIEW"
+    },
+    {
+      "vehicle_profile_id": "VEH_PROFILE_010",
+      "num_observations": 1,
+      "cameras_observed": [
+        "cam_overhead_01"
+      ],
+      "mean_reid_similarity": 1.0,
+      "has_violations": true,
+      "detected_modification_count": 2,
+      "detected_modifications": [
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "DETECTED",
+          "fused_confidence": 0.363,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_1",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.3629806637763977,
+              "crop_bbox": [
+                499,
+                114,
+                571,
+                208
+              ],
+              "image_bbox": [
+                797,
+                628,
+                869,
+                722
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.3058,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_1",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.30579015612602234,
+              "crop_bbox": [
+                39,
+                439,
+                108,
+                555
+              ],
+              "image_bbox": [
+                337,
+                953,
+                406,
+                1069
+              ]
+            }
+          ]
+        }
+      ],
+      "all_category_statuses": [
+        {
+          "modification_class": "bumper",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "wheel",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_exhaust",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "additional_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_lights",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "colored_headlight",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "bull_bar",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "aftermarket_spoiler",
+          "status": "DETECTED",
+          "fused_confidence": 0.363,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_1",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.3629806637763977,
+              "crop_bbox": [
+                499,
+                114,
+                571,
+                208
+              ],
+              "image_bbox": [
+                797,
+                628,
+                869,
+                722
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "aftermarket_tyre",
+          "status": "DETECTED",
+          "fused_confidence": 0.3058,
+          "observation_count": 1,
+          "supporting_cameras": [
+            "cam_overhead_01"
+          ],
+          "review_flag": "REQUIRES_VERIFICATION",
+          "evidence_items": [
+            {
+              "detection_id": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg_veh_1",
+              "source_file": "1012_jpg.rf.d429de5e5c69e3f106b18aa4aee68376.jpg",
+              "camera_id": "cam_overhead_01",
+              "timestamp": 1040.0,
+              "confidence": 0.30579015612602234,
+              "crop_bbox": [
+                39,
+                439,
+                108,
+                555
+              ],
+              "image_bbox": [
+                337,
+                953,
+                406,
+                1069
+              ]
+            }
+          ]
+        },
+        {
+          "modification_class": "modification_kit",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        },
+        {
+          "modification_class": "illegal_number_plate",
+          "status": "NOT_VISIBLE",
+          "fused_confidence": 0.0,
+          "observation_count": 0,
+          "supporting_cameras": [],
+          "review_flag": "COMPLIANT_OR_UNOBSERVED",
+          "evidence_items": []
+        }
+      ],
+      "overall_review_status": "FLAGGED_FOR_MANUAL_REVIEW"
+    }
+  ],
+  "disclaimer": "Automated AI detection report. For evidentiary screening only. Requires certified manual officer review."
+}
